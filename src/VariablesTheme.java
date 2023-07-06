@@ -27,7 +27,7 @@ public class VariablesTheme {
         System.out.println("'ok' - это количество памяти");
         System.out.println("'os' - это версия загрузки ОС");
         System.out.println("'like' - это версия системной прошивки");
-        System.out.println("'model' - это ижентификатор модели");
+        System.out.println("'model' - это идентификатор модели");
         System.out.println("'tip' - это тип чипа");
         System.out.println("'tie' - это реальные данные");
 
