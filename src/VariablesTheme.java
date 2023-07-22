@@ -45,6 +45,62 @@ public class VariablesTheme {
         System.out.println(discount);
         System.out.println(finishPrice);
 
+        System.out.println("3.Вывод слова JAVA");
+        System.out.println(" " +
+                "  J    a  v     v  a                                                  \n" +
+                "   J   a a  v   v  a a                                                 \n" +
+                "J  J  aaaaa  V V  aaaaa                                                \n" +
+                " JJ  a     a  V  a     a");
+
+
+
+        System.out.println("4.Вывод min и max значений целых числовых типов");
+
+        byte dress = 127;
+        short coat = 32767;
+        int bags = 2147483647;
+        long shoes = 9223372036854775807L;
+
+        System.out.println(dress);
+        System.out.println(coat);
+        System.out.println(bags);
+        System.out.println(shoes);
+
+        byte moreDress = (byte) (dress + 1);
+        short moreCoat = (short) (coat + 1);
+        int moreBags = (int) (bags + 1);
+        long moreShoes = (long) (shoes +1);
+
+        System.out.println(moreDress);
+        System.out.println(moreCoat);
+        System.out.println(moreBags);
+        System.out.println(moreShoes);
+
+        byte lessDress = (byte) (dress - 1);
+        short lessCoat = (short) (coat - 1);
+        int lessBags = (int) (bags - 1);
+        long lessShoes = (long) (shoes - 1);
+
+        System.out.println(lessDress);
+        System.out.println(lessCoat);
+        System.out.println(lessBags);
+        System.out.println(lessShoes);
+
+        System.out.println("5.Перестановка значений переменных");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
          }
